@@ -1,0 +1,21 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: generic-gui-message
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git, python-qt4
+Homepage: https://github.com/Whonix/generic-gui-message
+Vcs-Browser: https://github.com/Whonix/generic-gui-message
+Vcs-Git: https://github.com/Whonix/generic-gui-message.git
+Standards-Version: 3.9.4
+
+Package: generic-gui-message
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: none
+Description: A generic, versatile GUI message utility based on Qt QMessageBox.
+All the parameters are configurable as arguments: severity icon, message box
+title, message, optional question, buttons.
